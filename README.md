@@ -10,6 +10,7 @@ U.S. Marine Corps veteran in Los Angeles. I build AI agents, LLM tooling, and au
 | [llm-watch](https://github.com/kfairy9999/llm-watch) · [live demo](https://llm-watch.kfairley9999.workers.dev) | An LLM call ledger and eval regression gate (Python, FastAPI, React). | It flags a cheaper model that drops quality, catching 6 pass-to-fail flips in the demo suite. |
 | [fast-tokenizer](https://github.com/kfairy9999/fast-tokenizer) | A byte-level BPE tokenizer in Rust with Python bindings. | Exact GPT-2 token parity with tiktoken on 3.3 MB of text. About 2.5× tiktoken on one thread and 155 MB/s on 4 threads. |
 | [mini-agent](https://github.com/kfairy9999/mini-agent) | A tool-calling AI agent in Python with a self-check step and an eval harness. | 14/15 (93%) on a real Groq model run. |
+| [hermes-phone-agent](https://github.com/kfairy9999/hermes-phone-agent) | A guarded Python wrapper around the official Nous Research Hermes telephony skill, with mock-first Twilio, Bland, and Vapi adapters. | Allowlist, confirmation, daily caps, quiet hours, and an append-only audit log. Default is mock mode; no live Twilio, Bland, or Vapi calls or texts have been sent. |
 
 ## Background
 
